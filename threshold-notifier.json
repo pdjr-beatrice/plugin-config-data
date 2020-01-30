@@ -1,0 +1,75 @@
+{
+  "enabled": true,
+  "enableLogging": false,
+  "configuration": {
+    "paths": [
+      {
+        "path": "tanks.wasteWater.0.currentLevel",
+        "message": "${vessel}: waste water level is ${comp} ${threshold}: ${action} discharge pump",
+        "highthreshold": {
+          "value": 0.5,
+          "state": "alert",
+          "method": [ "visual" ]
+        },
+        "lowthreshold": {
+          "value": 0.01,
+          "state": "normal",
+          "method": []
+        },
+        "options": [
+          "enabled"
+        ],
+        "prefix": "control."
+      },
+      {
+        "path": "tanks.freshWater.2.currentLevel",
+        "message": "FRESH WATER TANKS NEAR CAPACITY",
+        "highthreshold": {
+          "value": 0.85,
+          "state": "alert",
+          "method": [ "visual" ]
+        },
+        "options": [
+          "enabled"
+        ],
+        "prefix": "none"
+      },
+      {
+        "path": "electrical.switches.0.11.state",
+        "message": "${vessel}: switch (0,11) is ON",
+        "highthreshold": {
+          "value": 0.6,
+          "state": "alert",
+          "method": []
+        },
+        "lowthreshold": {
+          "value": 0.4,
+          "state": "normal",
+          "method": []
+        },
+        "options": [
+          "enabled"
+        ],
+        "prefix": "control."
+      },
+      {
+        "path": "electrical.switches.16.16.state",
+        "message": "${vessel}: switch (16,16) is ON",
+        "highthreshold": {
+          "value": 0.6,
+          "state": "alert",
+          "method": []
+        },
+        "lowthreshold": {
+          "value": 0.4,
+          "state": "normal",
+          "method": []
+        },
+        "options": [
+          "enabled"
+        ],
+        "prefix": "control."
+      }
+    ]
+  }
+}

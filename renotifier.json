@@ -1,0 +1,34 @@
+{
+  "enabled": false,
+  "enableLogging": false,
+  "configuration": {
+    "triggers": [],
+    "notifiers": [
+      {
+        "name": "email",
+        "description": "Send Signal K notifications by email (arguments must be email addresses)",
+        "arguments": "paulanddiane@pdjr.eu",
+        "triggerstates": [],
+        "options": [
+          "-l"
+        ]
+      },
+      {
+        "name": "null",
+        "description": "Send Signal K notifications to a black hole",
+        "arguments": "",
+        "triggerstates": [],
+        "options": []
+      },
+      {
+        "name": "sms",
+        "description": "Send Signal K notifications by SMS (arguments must be phone numbers)",
+        "arguments": "0630242748",
+        "triggerstates": [],
+        "options": [
+          "-l"
+        ]
+      }
+    ]
+  }
+}

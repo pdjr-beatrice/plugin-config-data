@@ -1,0 +1,734 @@
+{
+  "enabled": true,
+  "enableLogging": false,
+  "configuration": {
+    "switchbanks": [
+      {
+        "instance": 0,
+        "description": "Switch input module (helm)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Immersion heater 1kW",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Immersion heater 2kw",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Chiller",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Boiler",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Thermal store",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 5,
+            "description": "Hot-water loop",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 6,
+            "description": "Hydrophore",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 7,
+            "description": "Work lights",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 8,
+            "description": "Anchor light",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 9,
+            "description": "Navigation lights",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 10,
+            "description": "Discharge pump (auto)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 11,
+            "description": "Discharge pump (manual)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 12,
+            "description": "Deck wash",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 13,
+            "description": "Call for HW",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 14,
+            "description": "Call for CH",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 15,
+            "description": "Propane isolator",
+            "options": {
+              "override": "none"
+            }
+          }
+        ]
+      },
+      {
+        "instance": 10,
+        "description": "Relay output module (engine room)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Hydrophore",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Thermal store",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Boiler",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Chiller",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Immersion heater 2kW",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 5,
+            "description": "Immersion heater 1kW",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 6,
+            "description": "Call for CH",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 7,
+            "description": "Call for HW",
+            "options": {
+              "override": "remote"
+            }
+          }
+        ]
+      },
+      {
+        "instance": 15,
+        "description": "Relay output module (master cabin)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Discharge pump",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Steaming light",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Anchor light",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Work lights",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Propane isolator",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 5,
+            "description": "",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 6,
+            "description": "",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 7,
+            "description": "",
+            "options": {
+              "override": "none"
+            }
+          }
+        ]
+      },
+      {
+        "instance": 16,
+        "description": "Switch input module (helm)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Troll valve",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Engine room ventilator (auto)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Engine room ventilator",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Main bilge ventilator (auto)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Main bilge ventilator",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 5,
+            "description": "Anchor up",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 6,
+            "description": "Anchor down",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 7,
+            "description": "Mast up",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 8,
+            "description": "Mast down",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 9,
+            "description": "Bow thrust (port)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 10,
+            "description": "Bow thrust (starboard)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 11,
+            "description": "Forelocker hatch (open)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 12,
+            "description": "Forelocker hatch (close)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 13,
+            "description": "",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 14,
+            "description": "",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 15,
+            "description": "Main engine",
+            "options": {
+              "override": "none"
+            }
+          }
+        ]
+      },
+      {
+        "instance": 26,
+        "description": "Relay output module (engine room)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Hot water loop",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Stern light",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Load sense (low)",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Load sense (high)",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Engine room ventilator (auto)",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 5,
+            "description": "Engine room ventilator",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 6,
+            "description": "Stern gland lubricator",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 7,
+            "description": "Deck wash pump",
+            "options": {
+              "override": "none"
+            }
+          }
+        ]
+      },
+      {
+        "instance": 31,
+        "description": "Relay output module (master cabin)",
+        "channels": [
+          {
+            "index": 0,
+            "description": "Forelocker hatch open",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 1,
+            "description": "Forelocker hatch close",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 2,
+            "description": "Mast up",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 3,
+            "description": "Mast down",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 4,
+            "description": "Anchor up",
+            "options": {
+              "override": "remote"
+            }
+          },
+          {
+            "index": 5,
+            "description": "Anchor down",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 6,
+            "description": "Bow thrust (starboard)",
+            "options": {
+              "override": "none"
+            }
+          },
+          {
+            "index": 7,
+            "description": "Bow thrust (port)",
+            "options": {
+              "override": "none"
+            }
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "triggers": [
+          "(0,0)"
+        ],
+        "action": "(10,5)",
+        "description": "Immersion heater 1kW"
+      },
+      {
+        "triggers": [
+          "(0,1)"
+        ],
+        "action": "(10,4)",
+        "description": "Immersion heater 2kW"
+      },
+      {
+        "triggers": [
+          "(0,2)"
+        ],
+        "action": "(10,3)",
+        "description": "Chiller"
+      },
+      {
+        "triggers": [
+          "(0,3)"
+        ],
+        "action": "(10,2)",
+        "description": "Boiler"
+      },
+      {
+        "triggers": [
+          "(0,4)"
+        ],
+        "action": "(10,1)",
+        "description": "Thermal store"
+      },
+      {
+        "triggers": [
+          "(0,7)"
+        ],
+        "action": "(31,6)",
+        "description": "bowthrust"
+      },
+      {
+        "triggers": [
+          "(0,6)"
+        ],
+        "action": "(10,0)",
+        "description": "Hydrophore"
+      },
+      {
+        "triggers": [
+          "(0,5)"
+        ],
+        "action": "(26,0)",
+        "description": "Hot water loop"
+      },
+      {
+        "triggers": [
+          "(0,8)"
+        ],
+        "action": "(15,2)",
+        "description": "Anchor light"
+      },
+      {
+        "triggers": [
+          "(0,9)"
+        ],
+        "action": "(15,1)",
+        "description": "Steaming light"
+      },
+      {
+        "triggers": [
+          "(0,9)"
+        ],
+        "action": "(26,1)",
+        "description": "Stern light"
+      },
+      {
+        "triggers": [
+          "(0,10) notifications.control.tanks.wasteWater.0.currentLevel",
+          "(0,11)"
+        ],
+        "action": "(15,0)",
+        "description": "Discharge pump"
+      },
+      {
+        "triggers": [
+          "(0,12)"
+        ],
+        "action": "(26,7)",
+        "description": "Deck wash pump"
+      },
+      {
+        "triggers": [
+          "(0,13)"
+        ],
+        "action": "(10,7)",
+        "description": "Call for HW"
+      },
+      {
+        "triggers": [
+          "(0,14)"
+        ],
+        "action": "(10,6)",
+        "description": "Call for CH"
+      },
+      {
+        "triggers": [
+          "(0,15)"
+        ],
+        "action": "(15,4)",
+        "description": "Propane isolator"
+      },
+      {
+        "triggers": [
+          "(16,0)"
+        ],
+        "action": "",
+        "description": "Troll valve"
+      },
+      {
+        "triggers": [
+          "(16,1)"
+        ],
+        "action": "(26,4)",
+        "description": "Engine room ventilator (auto)"
+      },
+      {
+        "triggers": [
+          "(16,2)"
+        ],
+        "action": "(26,5)",
+        "description": "Engine room ventilator"
+      },
+      {
+        "triggers": [
+          "(16,3)"
+        ],
+        "action": "",
+        "description": "Main bilge ventilator (auto)"
+      },
+      {
+        "triggers": [
+          "(16,4)"
+        ],
+        "action": "",
+        "description": "Main bilge ventilator"
+      },
+      {
+        "triggers": [
+          "(16,5)"
+        ],
+        "action": "(31,4)",
+        "description": "Anchor up"
+      },
+      {
+        "triggers": [
+          "(16,6)"
+        ],
+        "action": "(31,5)",
+        "description": "Anchor down"
+      },
+      {
+        "triggers": [
+          "(16,7)"
+        ],
+        "action": "(31,2)",
+        "description": "Mast up"
+      },
+      {
+        "triggers": [
+          "(16,8)"
+        ],
+        "action": "(31,3)",
+        "description": "Mast down"
+      },
+      {
+        "triggers": [
+          "(16,9)",
+          "(16,10)"
+        ],
+        "action": "(26,3)",
+        "description": "Load sense (high)"
+      },
+      {
+        "triggers": [
+          "(16,9)"
+        ],
+        "action": "(31,7)",
+        "description": "Bow thrust (port)"
+      },
+      {
+        "triggers": [
+          "(16,10)"
+        ],
+        "action": "(31,6)",
+        "description": "Bow thrust (starboard)"
+      },
+      {
+        "triggers": [
+          "(16,11)"
+        ],
+        "action": "(31,0)",
+        "description": "Forelocker hatch open"
+      },
+      {
+        "triggers": [
+          "(16,12)"
+        ],
+        "action": "(31,1)",
+        "description": "Forelocker hatch close"
+      },
+      {
+        "triggers": [
+          "(16,13)"
+        ],
+        "action": "",
+        "description": ""
+      },
+      {
+        "triggers": [
+          "(16,14)"
+        ],
+        "action": "",
+        "description": ""
+      },
+      {
+        "triggers": [
+          "(16,15)"
+        ],
+        "action": "",
+        "description": ""
+      },
+      {
+        "triggers": [
+          "notifications.control.shaftlube.state"
+        ],
+        "action": "(26,6)",
+        "description": "Stern gland lubrication"
+      }
+    ]
+  }
+}

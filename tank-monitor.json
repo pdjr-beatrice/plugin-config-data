@@ -1,0 +1,41 @@
+{
+  "enabled": false,
+  "enableLogging": false,
+  "configuration": {
+    "rrdpathname": "tanklevels.rrd",
+    "graphdir": "public/",
+    "consolereporting": false,
+    "sensors": [
+      {
+        "path": "tanks.wasteWater.0.currentLevel",
+        "capacity": 0,
+        "displayname": "cwastewater0",
+        "displaycolor": "#BE0032"
+      },
+      {
+        "path": "tanks.freshWater.1.currentLevel",
+        "capacity": 0,
+        "displayname": "cfreshwater1",
+        "displaycolor": "#C2B280"
+      },
+      {
+        "path": "tanks.freshWater.2.currentLevel",
+        "capacity": 0,
+        "displayname": "cfreshwater2",
+        "displaycolor": "#848482"
+      },
+      {
+        "path": "tanks.fuel.3.currentLevel",
+        "capacity": 0,
+        "displayname": "cfuel3",
+        "displaycolor": "#008856"
+      },
+      {
+        "path": "tanks.fuel.4.currentLevel",
+        "capacity": 0,
+        "displayname": "cfuel4",
+        "displaycolor": "#E68FAC"
+      }
+    ]
+  }
+}
