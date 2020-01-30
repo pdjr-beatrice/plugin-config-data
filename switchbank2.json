@@ -615,56 +615,56 @@
           "(16,1)"
         ],
         "action": "(26,4)",
-        "description": "Engine room ventilator (auto)"
+        "description": "ENGINE ROOM VENTILATOR (AUTO)"
       },
       {
         "triggers": [
           "(16,2)"
         ],
         "action": "(26,5)",
-        "description": "Engine room ventilator"
+        "description": "ENGINE ROOM VENTILATOR"
       },
       {
         "triggers": [
           "(16,3)"
         ],
         "action": "",
-        "description": "Main bilge ventilator (auto)"
+        "description": "MAIN BILGE VENTILATOR (AUTO)"
       },
       {
         "triggers": [
           "(16,4)"
         ],
         "action": "",
-        "description": "Main bilge ventilator"
+        "description": "MAIN BILGE VENTILATOR"
       },
       {
         "triggers": [
           "(16,5)"
         ],
         "action": "(31,4)",
-        "description": "Anchor up"
+        "description": "ANCHOR UP"
       },
       {
         "triggers": [
           "(16,6)"
         ],
         "action": "(31,5)",
-        "description": "Anchor down"
+        "description": "ANCHOR DOWN"
       },
       {
         "triggers": [
           "(16,7)"
         ],
         "action": "(31,2)",
-        "description": "Mast up"
+        "description": "MAST UP"
       },
       {
         "triggers": [
           "(16,8)"
         ],
         "action": "(31,3)",
-        "description": "Mast down"
+        "description": "MAST DOWN"
       },
       {
         "triggers": [
@@ -672,7 +672,7 @@
           "(16,10)"
         ],
         "action": "(26,3)",
-        "description": "Load sense (high)"
+        "description": "LOAD SENSE HIGH"
       },
       {
         "triggers": [
@@ -680,7 +680,7 @@
           "notifications.injected.bowthrustport"
         ],
         "action": "(31,7)",
-        "description": "Bow thrust (port)"
+        "description": "BOW THRUST PORT"
       },
       {
         "triggers": [
@@ -688,21 +688,21 @@
           "notifications.injected.bowthruststarboard"
         ],
         "action": "(31,6)",
-        "description": "Bow thrust (starboard)"
+        "description": "BOW THRUST STARBOARD"
       },
       {
         "triggers": [
           "(16,11)"
         ],
         "action": "(31,0)",
-        "description": "Forelocker hatch open"
+        "description": "FORELOCKER HATCH OPEN"
       },
       {
         "triggers": [
           "(16,12)"
         ],
         "action": "(31,1)",
-        "description": "Forelocker hatch close"
+        "description": "FORELOCKER HATCH CLOSE"
       },
       {
         "triggers": [
@@ -730,7 +730,7 @@
           "notifications.control.shaftlube.state"
         ],
         "action": "(26,6)",
-        "description": "Stern gland lubrication"
+        "description": "STERN GLAND LUBRICATION"
       }
     ]
   }
