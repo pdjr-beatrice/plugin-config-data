@@ -490,244 +490,213 @@
     ],
     "rules": [
       {
-        "triggers": [
-          "(0,0)"
-        ],
-        "action": "(10,5)",
-        "description": "Immersion heater 1kW"
+        "description": "1kW IMMERSION HEATER",
+        "input": [ "(0,0)" ],
+        "output": "(10,5)"
       },
       {
-        "triggers": [
-          "(0,1)"
-        ],
-        "action": "(10,4)",
-        "description": "Immersion heater 2kW"
+        "description": "2kW IMMERSION HEATER",
+        "input": [ "(0,1)" ],
+        "output": "(10,4)"
       },
       {
-        "triggers": [
-          "(0,2)"
-        ],
-        "action": "(10,3)",
-        "description": "Chiller"
+        "description": "CHILLER",
+        "input": [ "(0,2)" ],
+        "output": "(10,3)"
       },
       {
-        "triggers": [
-          "(0,3)"
-        ],
-        "action": "(10,2)",
-        "description": "Boiler"
+        "description": "BOILER",
+        "input": [ "(0,3)" ],
+        "output": "(10,2)"
       },
       {
-        "triggers": [
-          "(0,4)"
-        ],
-        "action": "(10,1)",
-        "description": "Thermal store"
+        "description": "THERMAL STORE",
+        "input": [ "(0,4)" ],
+        "output": "(10,1)"
       },
       {
-        "triggers": [
-          "(0,7)"
-        ],
-        "action": "(31,6)",
-        "description": "bowthrust"
+        "description": "HOT-WATER LOOP",
+        "input": [ "(0,5)" ],
+        "output": "(26,0)"
       },
       {
-        "triggers": [
-          "(0,6)"
-        ],
-        "action": "(10,0)",
-        "description": "Hydrophore"
+        "description": "HYDROPHORE",
+        "input": [ "(0,6)" ],
+        "output": "(10,0)"
       },
       {
-        "triggers": [
-          "(0,5)"
-        ],
-        "action": "(26,0)",
-        "description": "Hot water loop"
+        "description": "WORK LIGHTS",
+        "input": [ "(0,7)" ],
+        "output": "(15,3)"
       },
       {
-        "triggers": [
-          "(0,8)"
-        ],
-        "action": "(15,2)",
-        "description": "Anchor light"
+        "description": "ANCHOR LIGHT",
+        "input": [ "(0,8)" ],
+        "output": "(15,2)"
       },
       {
-        "triggers": [
-          "(0,9)"
-        ],
-        "action": "(15,1)",
-        "description": "Steaming light"
+        "description": "STEAMING LIGHT",
+        "input": [ "(0,9)" ],
+        "output": "(15,1)"
       },
       {
-        "triggers": [
-          "(0,9)"
-        ],
-        "action": "(26,1)",
-        "description": "Stern light"
+        "description": "STERN LIGHT",
+        "input": [ "(0,9)" ],
+        "output": "(26,1)"
       },
       {
-        "triggers": [
-          "(0,10) notifications.control.tanks.wasteWater.0.currentLevel",
-          "(0,11)"
-        ],
-        "action": "(15,0)",
-        "description": "Discharge pump"
+        "description": "DISCHARGE PUMP",
+        "input": [ "(0,10) notifications.control.tanks.wasteWater.0.currentLevel", "(0,11)" ],
+        "output": "(15,0)"
       },
       {
-        "triggers": [
-          "(0,12)"
-        ],
-        "action": "(26,7)",
-        "description": "Deck wash pump"
+        "description": "DECKWASH PUMP",
+        "input": [ "(0,12)" ],
+        "output": "(26,7)"
       },
       {
-        "triggers": [
-          "(0,13)"
-        ],
-        "action": "(10,7)",
-        "description": "Call for HW"
+        "description": "CALL FOR HW",
+        "input": [ "(0,13)" ],
+        "output": "(10,7)"
       },
       {
-        "triggers": [
-          "(0,14)"
-        ],
-        "action": "(10,6)",
-        "description": "Call for CH"
+        "description": "CALL FOR CH",
+        "input": [ "(0,14)" ],
+        "output": "(10,6)"
       },
       {
-        "triggers": [
-          "(0,15)"
-        ],
-        "action": "(15,4)",
-        "description": "Propane isolator"
+        "description": "PROPANE ISOLATOR",
+        "input": [ "(0,15)" ],
+        "output": "(15,4)"
       },
       {
-        "triggers": [
+        "input": [
           "(16,0)"
         ],
-        "action": "",
-        "description": "Troll valve"
+        "output": "",
+        "description": "TROLL VALVE FLAG"
       },
       {
-        "triggers": [
+        "input": [
           "(16,1)"
         ],
-        "action": "(26,4)",
-        "description": "Engine room ventilator (auto)"
+        "output": "(26,4)",
+        "description": "ENGINE ROOM VENTILATOR (AUTO)"
       },
       {
-        "triggers": [
+        "input": [
           "(16,2)"
         ],
-        "action": "(26,5)",
-        "description": "Engine room ventilator"
+        "output": "(26,5)",
+        "description": "ENGINE ROOM VENTILATOR"
       },
       {
-        "triggers": [
+        "input": [
           "(16,3)"
         ],
-        "action": "",
-        "description": "Main bilge ventilator (auto)"
+        "output": "",
+        "description": "MAIN BILGE VENTILATOR (AUTO)"
       },
       {
-        "triggers": [
+        "input": [
           "(16,4)"
         ],
-        "action": "",
-        "description": "Main bilge ventilator"
+        "output": "",
+        "description": "MAIN BILGE VENTILATOR"
       },
       {
-        "triggers": [
+        "input": [
           "(16,5)"
         ],
-        "action": "(31,4)",
-        "description": "Anchor up"
+        "output": "(31,4)",
+        "description": "ANCHOR UP"
       },
       {
-        "triggers": [
+        "input": [
           "(16,6)"
         ],
-        "action": "(31,5)",
-        "description": "Anchor down"
+        "output": "(31,5)",
+        "description": "ANCHOR DOWN"
       },
       {
-        "triggers": [
+        "input": [
           "(16,7)"
         ],
-        "action": "(31,2)",
-        "description": "Mast up"
+        "output": "(31,2)",
+        "description": "MAST UP"
       },
       {
-        "triggers": [
+        "input": [
           "(16,8)"
         ],
-        "action": "(31,3)",
-        "description": "Mast down"
+        "output": "(31,3)",
+        "description": "MAST DOWN"
       },
       {
-        "triggers": [
+        "input": [
           "(16,9)",
           "(16,10)"
         ],
-        "action": "(26,3)",
-        "description": "Load sense (high)"
+        "output": "(26,3)",
+        "description": "LOAD SENSE HIGH"
       },
       {
-        "triggers": [
-          "(16,9)"
+        "input": [
+          "(16,9)",
+          "notifications.injected.bowthrustport"
         ],
-        "action": "(31,7)",
-        "description": "Bow thrust (port)"
+        "output": "(31,7)",
+        "description": "BOW THRUST PORT"
       },
       {
-        "triggers": [
-          "(16,10)"
+        "input": [
+          "(16,10)",
+          "notifications.injected.bowthruststarboard"
         ],
-        "action": "(31,6)",
-        "description": "Bow thrust (starboard)"
+        "output": "(31,6)",
+        "description": "BOW THRUST STARBOARD"
       },
       {
-        "triggers": [
+        "input": [
           "(16,11)"
         ],
-        "action": "(31,0)",
-        "description": "Forelocker hatch open"
+        "output": "(31,0)",
+        "description": "FORELOCKER HATCH OPEN"
       },
       {
-        "triggers": [
+        "input": [
           "(16,12)"
         ],
-        "action": "(31,1)",
-        "description": "Forelocker hatch close"
+        "output": "(31,1)",
+        "description": "FORELOCKER HATCH CLOSE"
       },
       {
-        "triggers": [
+        "input": [
           "(16,13)"
         ],
-        "action": "",
+        "output": "",
         "description": ""
       },
       {
-        "triggers": [
+        "input": [
           "(16,14)"
         ],
-        "action": "",
+        "output": "",
         "description": ""
       },
       {
-        "triggers": [
+        "input": [
           "(16,15)"
         ],
-        "action": "",
+        "output": "",
         "description": ""
       },
       {
-        "triggers": [
+        "input": [
           "notifications.control.shaftlube.state"
         ],
-        "action": "(26,6)",
-        "description": "Stern gland lubrication"
+        "output": "(26,6)",
+        "description": "STERN GLAND LUBRICATION"
       }
     ]
   }
