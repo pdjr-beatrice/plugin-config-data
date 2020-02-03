@@ -9,115 +9,67 @@
         "channels": [
           {
             "index": 0,
-            "description": "Immersion heater 1kW",
-            "options": {
-              "override": "none"
-            }
+            "description": "Immersion heater 1kW"
           },
           {
             "index": 1,
-            "description": "Immersion heater 2kw",
-            "options": {
-              "override": "none"
-            }
+            "description": "Immersion heater 2kw"
           },
           {
             "index": 2,
-            "description": "Chiller",
-            "options": {
-              "override": "none"
-            }
+            "description": "Chiller"
           },
           {
             "index": 3,
-            "description": "Boiler",
-            "options": {
-              "override": "none"
-            }
+            "description": "Boiler"
           },
           {
             "index": 4,
-            "description": "Thermal store",
-            "options": {
-              "override": "none"
-            }
+            "description": "Thermal store"
           },
           {
             "index": 5,
-            "description": "Hot-water loop",
-            "options": {
-              "override": "none"
-            }
+            "description": "Hot-water loop"
           },
           {
             "index": 6,
-            "description": "Hydrophore",
-            "options": {
-              "override": "none"
-            }
+            "description": "Hydrophore"
           },
           {
             "index": 7,
-            "description": "Work lights",
-            "options": {
-              "override": "none"
-            }
+            "description": "Work lights"
           },
           {
             "index": 8,
-            "description": "Anchor light",
-            "options": {
-              "override": "none"
-            }
+            "description": "Anchor light"
           },
           {
             "index": 9,
-            "description": "Navigation lights",
-            "options": {
-              "override": "none"
-            }
+            "description": "Navigation lights"
           },
           {
             "index": 10,
-            "description": "Discharge pump (auto)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Discharge pump (auto)"
           },
           {
             "index": 11,
-            "description": "Discharge pump (manual)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Discharge pump (manual)"
           },
           {
             "index": 12,
-            "description": "Deck wash",
-            "options": {
-              "override": "none"
-            }
+            "description": "Deck wash"
           },
           {
             "index": 13,
-            "description": "Call for HW",
-            "options": {
-              "override": "none"
-            }
+            "description": "Call for HW"
           },
           {
             "index": 14,
-            "description": "Call for CH",
-            "options": {
-              "override": "none"
-            }
+            "description": "Call for CH"
           },
           {
             "index": 15,
-            "description": "Propane isolator",
-            "options": {
-              "override": "none"
-            }
+            "description": "Propane isolator"
           }
         ]
       },
@@ -127,59 +79,35 @@
         "channels": [
           {
             "index": 0,
-            "description": "Hydrophore",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Hydrophore"
           },
           {
             "index": 1,
-            "description": "Thermal store",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Thermal store"
           },
           {
             "index": 2,
-            "description": "Boiler",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Boiler"
           },
           {
             "index": 3,
-            "description": "Chiller",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Chiller"
           },
           {
             "index": 4,
-            "description": "Immersion heater 2kW",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Immersion heater 2kW"
           },
           {
             "index": 5,
-            "description": "Immersion heater 1kW",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Immersion heater 1kW"
           },
           {
             "index": 6,
-            "description": "Call for CH",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Call for CH"
           },
           {
             "index": 7,
-            "description": "Call for HW",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Call for HW"
           }
         ]
       },
@@ -189,59 +117,35 @@
         "channels": [
           {
             "index": 0,
-            "description": "Discharge pump",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Discharge pump"
           },
           {
             "index": 1,
-            "description": "Steaming light",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Steaming light"
           },
           {
             "index": 2,
-            "description": "Anchor light",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Anchor light"
           },
           {
             "index": 3,
-            "description": "Work lights",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Work lights"
           },
           {
             "index": 4,
-            "description": "Propane isolator",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Propane isolator"
           },
           {
             "index": 5,
-            "description": "",
-            "options": {
-              "override": "none"
-            }
+            "description": ""
           },
           {
             "index": 6,
-            "description": "",
-            "options": {
-              "override": "none"
-            }
+            "description": ""
           },
           {
             "index": 7,
-            "description": "",
-            "options": {
-              "override": "none"
-            }
+            "description": ""
           }
         ]
       },
@@ -251,115 +155,67 @@
         "channels": [
           {
             "index": 0,
-            "description": "Troll valve",
-            "options": {
-              "override": "none"
-            }
+            "description": "Troll valve"
           },
           {
             "index": 1,
-            "description": "Engine room ventilator (auto)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Engine room ventilator (auto)"
           },
           {
             "index": 2,
-            "description": "Engine room ventilator",
-            "options": {
-              "override": "none"
-            }
+            "description": "Engine room ventilator"
           },
           {
             "index": 3,
-            "description": "Main bilge ventilator (auto)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Main bilge ventilator (auto)"
           },
           {
             "index": 4,
-            "description": "Main bilge ventilator",
-            "options": {
-              "override": "none"
-            }
+            "description": "Main bilge ventilator"
           },
           {
             "index": 5,
-            "description": "Anchor up",
-            "options": {
-              "override": "none"
-            }
+            "description": "Anchor up"
           },
           {
             "index": 6,
-            "description": "Anchor down",
-            "options": {
-              "override": "none"
-            }
+            "description": "Anchor down"
           },
           {
             "index": 7,
-            "description": "Mast up",
-            "options": {
-              "override": "none"
-            }
+            "description": "Mast up"
           },
           {
             "index": 8,
-            "description": "Mast down",
-            "options": {
-              "override": "none"
-            }
+            "description": "Mast down"
           },
           {
             "index": 9,
-            "description": "Bow thrust (port)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Bow thrust (port)"
           },
           {
             "index": 10,
-            "description": "Bow thrust (starboard)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Bow thrust (starboard)"
           },
           {
             "index": 11,
-            "description": "Forelocker hatch (open)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Forelocker hatch (open)"
           },
           {
             "index": 12,
-            "description": "Forelocker hatch (close)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Forelocker hatch (close)"
           },
           {
             "index": 13,
-            "description": "",
-            "options": {
-              "override": "none"
-            }
+            "description": ""
           },
           {
             "index": 14,
-            "description": "",
-            "options": {
-              "override": "none"
-            }
+            "description": ""
           },
           {
             "index": 15,
-            "description": "Main engine",
-            "options": {
-              "override": "none"
-            }
+            "description": "Main engine"
           }
         ]
       },
@@ -369,59 +225,35 @@
         "channels": [
           {
             "index": 0,
-            "description": "Hot water loop",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Hot water loop"
           },
           {
             "index": 1,
-            "description": "Stern light",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Stern light"
           },
           {
             "index": 2,
-            "description": "Load sense (low)",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Load sense (low)"
           },
           {
             "index": 3,
-            "description": "Load sense (high)",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Load sense (high)"
           },
           {
             "index": 4,
-            "description": "Engine room ventilator (auto)",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Engine room ventilator (auto)"
           },
           {
             "index": 5,
-            "description": "Engine room ventilator",
-            "options": {
-              "override": "none"
-            }
+            "description": "Engine room ventilator"
           },
           {
             "index": 6,
-            "description": "Stern gland lubricator",
-            "options": {
-              "override": "none"
-            }
+            "description": "Stern gland lubricator"
           },
           {
             "index": 7,
-            "description": "Deck wash pump",
-            "options": {
-              "override": "none"
-            }
+            "description": "Deck wash pump"
           }
         ]
       },
@@ -431,59 +263,35 @@
         "channels": [
           {
             "index": 0,
-            "description": "Forelocker hatch open",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Forelocker hatch open"
           },
           {
             "index": 1,
-            "description": "Forelocker hatch close",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Forelocker hatch close"
           },
           {
             "index": 2,
-            "description": "Mast up",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Mast up"
           },
           {
             "index": 3,
-            "description": "Mast down",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Mast down"
           },
           {
             "index": 4,
-            "description": "Anchor up",
-            "options": {
-              "override": "remote"
-            }
+            "description": "Anchor up"
           },
           {
             "index": 5,
-            "description": "Anchor down",
-            "options": {
-              "override": "none"
-            }
+            "description": "Anchor down"
           },
           {
             "index": 6,
-            "description": "Bow thrust (starboard)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Bow thrust (starboard)"
           },
           {
             "index": 7,
-            "description": "Bow thrust (port)",
-            "options": {
-              "override": "none"
-            }
+            "description": "Bow thrust (port)"
           }
         ]
       }
@@ -570,46 +378,34 @@
         "output": "(15,4)"
       },
       {
-        "input": [
-          "(16,0)"
-        ],
-        "output": "",
-        "description": "TROLL VALVE FLAG"
+        "description": "TROLL VALVE FLAG",
+        "input": [ "(16,0)" ],
+        "output": ""
       },
       {
-        "input": [
-          "(16,1)"
-        ],
-        "output": "(26,4)",
-        "description": "ENGINE ROOM VENTILATOR (AUTO)"
+        "description": "ENGINE ROOM VENTILATOR (AUTO)",
+        "input": [ "(16,1)" ],
+        "output": "(26,4)"
       },
       {
-        "input": [
-          "(16,2)"
-        ],
-        "output": "(26,5)",
-        "description": "ENGINE ROOM VENTILATOR"
+        "description": "ENGINE ROOM VENTILATOR",
+        "input": [ "(16,2)" ],
+        "output": "(26,5)"
       },
       {
-        "input": [
-          "(16,3)"
-        ],
-        "output": "",
-        "description": "MAIN BILGE VENTILATOR (AUTO)"
+        "description": "MAIN BILGE VENTILATOR (AUTO)",
+        "input": [ "(16,3)" ],
+        "output": ""
       },
       {
-        "input": [
-          "(16,4)"
-        ],
-        "output": "",
-        "description": "MAIN BILGE VENTILATOR"
+        "description": "MAIN BILGE VENTILATOR",
+        "input": [ "(16,4)" ],
+        "output": ""
       },
       {
-        "input": [
-          "(16,5)"
-        ],
-        "output": "(31,4)",
-        "description": "ANCHOR UP"
+        "description": "ANCHOR UP",
+        "input": [ "(16,5)" ],
+        "output": "(31,4)"
       },
       {
         "input": [
