@@ -388,7 +388,7 @@
       },
       {
         "description": "HOT-WATER LOOP",
-        "input": [ "(0,5)" ],
+        "input": [ "(0,5)", "notifications.controller.loop" ],
         "output": "(26,0)"
       },
       {
