@@ -1,0 +1,128 @@
+{
+  "enabled": true,
+  "enableLogging": true,
+  "configuration": {
+    "global": {
+      "trigger": "notifications.control.{m}.{c}",
+      "triggerstates": [ "alert", "alarm", "emergency" ],
+      "switchpath": "electrical.switches.{m}.{c}",
+      "pollinginterval": 0
+    },
+    "modules": [
+      {
+        "id": "usb0",
+        "deviceid": "USB-RLY02",
+        "cstring": "usb:/dev/ttyACM0",
+        "description": "",
+        "channels": [
+          { "index": 1, "description": "En-suite towel rail" },
+          { "index": 2, "description": "Dayhead towel rail" }
+        ]
+      },
+      {
+        "id": "eth0",
+        "deviceid": "ETH004",
+        "cstring": "tcp:192.168.1.11:8000",
+        "description": "",
+        "channels": [
+          { "index": 1, "description": "En-suite towel rail" },
+          { "index": 2, "description": "Dayhead towel rail" },
+          { "index": 3, "description": "En-suite towel rail" },
+          { "index": 4, "description": "Dayhead towel rail" }
+        ]
+      }
+    ],
+    "devices": [
+        {
+            "id": "USB-RLY02-SN USB-RLY02 USB-RLY82 ",
+            "size": 2,
+            "protocols": [
+                {
+                    "id": "usb",
+                    "status": "[",
+                    "commands": [
+                        { "channel": 1, "on": "e", "off": "o" },
+                        { "channel": 2, "on": "f", "off": "p" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "USB-RLY08B USB-RLY16 USB-RLY16L USB-OPTO-RLY88 USB-OPTO-RLY816",
+            "size": 8,
+            "protocols": [
+                {
+                    "id": "usb",
+                    "status": "[",
+                    "commands": [
+                        { "channel": 1, "on": "e", "off": "o" },
+                        { "channel": 2, "on": "f", "off": "p" },
+                        { "channel": 3, "on": "g", "off": "q" },
+                        { "channel": 4, "on": "h", "off": "r" },
+                        { "channel": 5, "on": "i", "off": "s" },
+                        { "channel": 6, "on": "j", "off": "t" },
+                        { "channel": 7, "on": "k", "off": "u" },
+                        { "channel": 8, "on": "l", "off": "v" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ETH002",
+            "size": 2,
+            "protocols": [
+                {
+                    "id": "tcp",
+                    "status": "",
+                    "authenticationtoken": "y{p}",
+                    "commands": [
+                        { "channel": 0, "on": "{A} {C}\u0001\u0000\u007B", "off": "{P} {C}\u0000\u0000\u007B" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ETH044",
+            "size": 4,
+            "protocols": [
+                {
+                    "id": "tcp",
+                    "status": "",
+                    "authenticationtoken": "y{p}",
+                    "commands": [
+                        { "channel": 0, "on": "{A} {C}\u0001\u0000\u007B", "off": "{P} {C}\u0000\u0000\u007B" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ETH008",
+            "size": 8,
+            "protocols": [
+                {
+                    "id": "tcp",
+                    "status": "",
+                    "authenticationtoken": "y{p}",
+                    "commands": [
+                        { "channel": 0, "on": "{A} {C}\u0001\u0000\u007B", "off": "{P} {C}\u0000\u0000\u007B" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ETH8020",
+            "size": 20,
+            "protocols": [
+                {
+                    "id": "tcp",
+                    "status": "",
+                    "authenticationtoken": "y{p}",
+                    "commands": [
+                        { "channel": 0, "on": "{A} {C}\u0001\u0000\u007B", "off": "{P} {C}\u0000\u0000\u007B" }
+                    ]
+                }
+            ]
+        }
+    ]
+  }
+}

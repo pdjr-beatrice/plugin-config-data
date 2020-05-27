@@ -9,66 +9,82 @@
         "channels": [
           {
             "index": 0,
+            "type": "switch",
             "description": "Immersion heater 1kW"
           },
           {
             "index": 1,
+            "type": "switch",
             "description": "Immersion heater 2kw"
           },
           {
             "index": 2,
+            "type": "switch",
             "description": "Chiller"
           },
           {
             "index": 3,
+            "type": "switch",
             "description": "Boiler"
           },
           {
             "index": 4,
+            "type": "switch",
             "description": "Thermal store"
           },
           {
             "index": 5,
+            "type": "switch",
             "description": "Hot-water loop"
           },
           {
             "index": 6,
+            "type": "switch",
             "description": "Hydrophore"
           },
           {
             "index": 7,
+            "type": "switch",
             "description": "Work lights"
           },
           {
             "index": 8,
+            "type": "switch",
             "description": "Anchor light"
           },
           {
             "index": 9,
+            "type": "switch",
             "description": "Navigation lights"
           },
           {
             "index": 10,
+            "type": "switch",
             "description": "Discharge pump (auto)"
           },
           {
             "index": 11,
+            "type": "switch",
             "description": "Discharge pump (manual)"
           },
           {
             "index": 12,
+            "type": "switch",
             "description": "Deck wash"
           },
           {
             "index": 13,
+            "type": "switch",
             "description": "Call for HW"
           },
           {
             "index": 14,
+            "type": "switch",
             "description": "Call for CH"
           },
           {
             "index": 15,
+            "type": "switch",
             "description": "Propane isolator"
           }
         ]
@@ -79,34 +95,42 @@
         "channels": [
           {
             "index": 0,
+            "type": "relay",
             "description": "Hydrophore"
           },
           {
             "index": 1,
+            "type": "relay",
             "description": "Thermal store"
           },
           {
             "index": 2,
+            "type": "relay",
             "description": "Boiler"
           },
           {
             "index": 3,
+            "type": "relay",
             "description": "Chiller"
           },
           {
             "index": 4,
+            "type": "relay",
             "description": "Immersion heater 2kW"
           },
           {
             "index": 5,
+            "type": "relay",
             "description": "Immersion heater 1kW"
           },
           {
             "index": 6,
+            "type": "relay",
             "description": "Call for CH"
           },
           {
             "index": 7,
+            "type": "relay",
             "description": "Call for HW"
           }
         ]
@@ -117,34 +141,42 @@
         "channels": [
           {
             "index": 0,
+            "type": "relay",
             "description": "Discharge pump"
           },
           {
             "index": 1,
+            "type": "relay",
             "description": "Steaming light"
           },
           {
             "index": 2,
+            "type": "relay",
             "description": "Anchor light"
           },
           {
             "index": 3,
+            "type": "relay",
             "description": "Work lights"
           },
           {
             "index": 4,
+            "type": "relay",
             "description": "Propane isolator"
           },
           {
             "index": 5,
+            "type": "relay",
             "description": ""
           },
           {
             "index": 6,
+            "type": "relay",
             "description": ""
           },
           {
             "index": 7,
+            "type": "relay",
             "description": ""
           }
         ]
@@ -155,66 +187,82 @@
         "channels": [
           {
             "index": 0,
+            "type": "switch",
             "description": "Troll valve"
           },
           {
             "index": 1,
+            "type": "switch",
             "description": "Engine room ventilator (auto)"
           },
           {
             "index": 2,
+            "type": "switch",
             "description": "Engine room ventilator"
           },
           {
             "index": 3,
+            "type": "switch",
             "description": "Main bilge ventilator (auto)"
           },
           {
             "index": 4,
+            "type": "switch",
             "description": "Main bilge ventilator"
           },
           {
             "index": 5,
+            "type": "switch",
             "description": "Anchor up"
           },
           {
             "index": 6,
+            "type": "switch",
             "description": "Anchor down"
           },
           {
             "index": 7,
+            "type": "switch",
             "description": "Mast up"
           },
           {
             "index": 8,
+            "type": "switch",
             "description": "Mast down"
           },
           {
             "index": 9,
+            "type": "switch",
             "description": "Bow thrust (port)"
           },
           {
             "index": 10,
+            "type": "switch",
             "description": "Bow thrust (starboard)"
           },
           {
             "index": 11,
+            "type": "switch",
             "description": "Forelocker hatch (open)"
           },
           {
             "index": 12,
+            "type": "switch",
             "description": "Forelocker hatch (close)"
           },
           {
             "index": 13,
+            "type": "switch",
             "description": ""
           },
           {
             "index": 14,
+            "type": "switch",
             "description": ""
           },
           {
             "index": 15,
+            "type": "switch",
             "description": "Main engine"
           }
         ]
@@ -225,34 +273,42 @@
         "channels": [
           {
             "index": 0,
+            "type": "relay",
             "description": "Hot water loop"
           },
           {
             "index": 1,
+            "type": "relay",
             "description": "Stern light"
           },
           {
             "index": 2,
+            "type": "relay",
             "description": "Load sense (low)"
           },
           {
             "index": 3,
+            "type": "relay",
             "description": "Load sense (high)"
           },
           {
             "index": 4,
+            "type": "relay",
             "description": "Engine room ventilator (auto)"
           },
           {
             "index": 5,
+            "type": "relay",
             "description": "Engine room ventilator"
           },
           {
             "index": 6,
+            "type": "relay",
             "description": "Stern gland lubricator"
           },
           {
             "index": 7,
+            "type": "relay",
             "description": "Deck wash pump"
           }
         ]
@@ -263,34 +319,42 @@
         "channels": [
           {
             "index": 0,
+            "type": "relay",
             "description": "Forelocker hatch open"
           },
           {
             "index": 1,
+            "type": "relay",
             "description": "Forelocker hatch close"
           },
           {
             "index": 2,
+            "type": "relay",
             "description": "Mast up"
           },
           {
             "index": 3,
+            "type": "relay",
             "description": "Mast down"
           },
           {
             "index": 4,
+            "type": "relay",
             "description": "Anchor up"
           },
           {
             "index": 5,
+            "type": "relay",
             "description": "Anchor down"
           },
           {
             "index": 6,
+            "type": "relay",
             "description": "Bow thrust (starboard)"
           },
           {
             "index": 7,
+            "type": "relay",
             "description": "Bow thrust (port)"
           }
         ]
@@ -369,7 +433,7 @@
       },
       {
         "description": "CALL FOR CH",
-        "input": [ "(0,14)" ],
+        "input": [ "(0,14)", "notifications.controller.heating" ],
         "output": "(10,6)"
       },
       {
@@ -438,16 +502,14 @@
       },
       {
         "input": [
-          "(16,9)",
-          "notifications.injected.bowthrustport"
+          "(16,10)"
         ],
         "output": "(31,7)",
         "description": "BOW THRUST PORT"
       },
       {
         "input": [
-          "(16,10)",
-          "notifications.injected.bowthruststarboard"
+          "(16,9)"
         ],
         "output": "(31,6)",
         "description": "BOW THRUST STARBOARD"

@@ -5,7 +5,9 @@
     "installType": "remote",
     "dbusAddress": "tcp:host=192.168.1.2,port=78",
     "pollInterval": 20,
-    "relayPath0": "electrical.switches.venus-0",
-    "relayPath1": "electrical.switches.venus-1"
+    "relayPath0": "electrical.switches.venus.0",
+    "relayDisplayName0": "Generator auto start",
+    "relayPath1": "electrical.switches.venus.1",
+    "relayDisplayName1": "Victron Venus realy 2"
   }
 }

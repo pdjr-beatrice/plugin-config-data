@@ -3,7 +3,7 @@
   "enableLogging": false,
   "configuration": {
     "fifo": "/var/signalk-injector",
-    "passwords": "447786528092",
+    "passwords": "447786528092 preeve",
     "defaultpath": "notifications.injected",
     "defaultstate": "alert",
     "defaultmethod": "visual sound"
