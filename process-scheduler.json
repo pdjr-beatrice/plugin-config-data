@@ -7,7 +7,7 @@
         "name": "shaft lubrication",
         "enablingpaths": [
           {
-            "path": "notifications.control.electrical.switches.16.16.state",
+            "path": "electrical.switches.bank.16.16.state",
             "options": [
               "enabled"
             ]
@@ -16,14 +16,14 @@
         "activities": [
           {
             "name": "start",
-            "path": "notifications.control.shaftlube.state",
+            "path": "notifications.control.shaftlube",
             "delay": 0,
-            "duration": 30,
+            "duration": 60,
             "iterate": 1
           },
           {
             "name": "iterate",
-            "path": "notifications.control.shaftlube.state",
+            "path": "notifications.control.shaftlube",
             "delay": 1800,
             "duration": 60,
             "iterate": 10000

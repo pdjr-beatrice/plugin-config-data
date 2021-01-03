@@ -4,557 +4,308 @@
   "configuration": {
     "switchbanks": [
       {
-        "instance": 0,
+        "instance": "0",
+        "channelcount": 16,
+        "type": "switch",
         "description": "Switch input module (helm)",
         "channels": [
           {
-            "index": 0,
-            "type": "switch",
+            "index": 1,
             "description": "Immersion heater 1kW"
           },
           {
-            "index": 1,
-            "type": "switch",
+            "index": 2,
             "description": "Immersion heater 2kw"
           },
           {
-            "index": 2,
-            "type": "switch",
+            "index": 3,
             "description": "Chiller"
           },
           {
-            "index": 3,
-            "type": "switch",
+            "index": 4,
             "description": "Boiler"
           },
           {
-            "index": 4,
-            "type": "switch",
+            "index": 5,
             "description": "Thermal store"
           },
           {
-            "index": 5,
-            "type": "switch",
+            "index": 6,
             "description": "Hot-water loop"
           },
           {
-            "index": 6,
-            "type": "switch",
+            "index": 7,
             "description": "Hydrophore"
           },
           {
-            "index": 7,
-            "type": "switch",
+            "index": 8,
             "description": "Work lights"
           },
           {
-            "index": 8,
-            "type": "switch",
+            "index": 9,
             "description": "Anchor light"
           },
           {
-            "index": 9,
-            "type": "switch",
+            "index": 10,
             "description": "Navigation lights"
           },
           {
-            "index": 10,
-            "type": "switch",
+            "index": 11,
             "description": "Discharge pump (auto)"
           },
           {
-            "index": 11,
-            "type": "switch",
+            "index": 12,
             "description": "Discharge pump (manual)"
           },
           {
-            "index": 12,
-            "type": "switch",
+            "index": 13,
             "description": "Deck wash"
           },
           {
-            "index": 13,
-            "type": "switch",
+            "index": 14,
             "description": "Call for HW"
           },
           {
-            "index": 14,
-            "type": "switch",
+            "index": 15,
             "description": "Call for CH"
           },
           {
-            "index": 15,
-            "type": "switch",
+            "index": 16,
             "description": "Propane isolator"
           }
         ]
       },
       {
-        "instance": 10,
+        "instance": "10",
+        "channelcount": 8,
+        "type": "relay",
         "description": "Relay output module (engine room)",
         "channels": [
           {
-            "index": 0,
-            "type": "relay",
+            "index": 1,
             "description": "Hydrophore"
           },
           {
-            "index": 1,
-            "type": "relay",
+            "index": 2,
             "description": "Thermal store"
           },
           {
-            "index": 2,
-            "type": "relay",
+            "index": 3,
             "description": "Boiler"
           },
           {
-            "index": 3,
-            "type": "relay",
+            "index": 4,
             "description": "Chiller"
           },
           {
-            "index": 4,
-            "type": "relay",
+            "index": 5,
             "description": "Immersion heater 2kW"
           },
           {
-            "index": 5,
-            "type": "relay",
+            "index": 6,
             "description": "Immersion heater 1kW"
           },
           {
-            "index": 6,
-            "type": "relay",
+            "index": 7,
             "description": "Call for CH"
           },
           {
-            "index": 7,
-            "type": "relay",
+            "index": 8,
             "description": "Call for HW"
           }
         ]
       },
       {
-        "instance": 15,
+        "instance": "15",
+        "channelcount": 8,
+        "type": "relay",
         "description": "Relay output module (master cabin)",
         "channels": [
           {
-            "index": 0,
-            "type": "relay",
+            "index": 1,
             "description": "Discharge pump"
           },
           {
-            "index": 1,
-            "type": "relay",
+            "index": 2,
             "description": "Steaming light"
           },
           {
-            "index": 2,
-            "type": "relay",
+            "index": 3,
             "description": "Anchor light"
           },
           {
-            "index": 3,
-            "type": "relay",
+            "index": 4,
             "description": "Work lights"
           },
           {
-            "index": 4,
-            "type": "relay",
+            "index": 5,
             "description": "Propane isolator"
           },
           {
-            "index": 5,
-            "type": "relay",
-            "description": ""
-          },
-          {
             "index": 6,
-            "type": "relay",
             "description": ""
           },
           {
             "index": 7,
-            "type": "relay",
+            "description": ""
+          },
+          {
+            "index": 8,
             "description": ""
           }
         ]
       },
       {
-        "instance": 16,
+        "instance": "16",
+        "channelcount": 16,
+        "type": "switch",
         "description": "Switch input module (helm)",
         "channels": [
           {
-            "index": 0,
-            "type": "switch",
+            "index": 1,
             "description": "Troll valve"
           },
           {
-            "index": 1,
-            "type": "switch",
+            "index": 2,
             "description": "Engine room ventilator (auto)"
           },
           {
-            "index": 2,
-            "type": "switch",
+            "index": 3,
             "description": "Engine room ventilator"
           },
           {
-            "index": 3,
-            "type": "switch",
+            "index": 4,
             "description": "Main bilge ventilator (auto)"
           },
           {
-            "index": 4,
-            "type": "switch",
+            "index": 5,
             "description": "Main bilge ventilator"
           },
           {
-            "index": 5,
-            "type": "switch",
+            "index": 6,
             "description": "Anchor up"
           },
           {
-            "index": 6,
-            "type": "switch",
+            "index": 7,
             "description": "Anchor down"
           },
           {
-            "index": 7,
-            "type": "switch",
+            "index": 8,
             "description": "Mast up"
           },
           {
-            "index": 8,
-            "type": "switch",
+            "index": 9,
             "description": "Mast down"
           },
           {
-            "index": 9,
-            "type": "switch",
+            "index": 10,
             "description": "Bow thrust (port)"
           },
           {
-            "index": 10,
-            "type": "switch",
+            "index": 11,
             "description": "Bow thrust (starboard)"
           },
           {
-            "index": 11,
-            "type": "switch",
+            "index": 12,
             "description": "Forelocker hatch (open)"
           },
           {
-            "index": 12,
-            "type": "switch",
+            "index": 13,
             "description": "Forelocker hatch (close)"
           },
           {
-            "index": 13,
-            "type": "switch",
-            "description": ""
-          },
-          {
             "index": 14,
-            "type": "switch",
             "description": ""
           },
           {
             "index": 15,
-            "type": "switch",
+            "description": ""
+          },
+          {
+            "index": 16,
             "description": "Main engine"
           }
         ]
       },
       {
-        "instance": 26,
+        "instance": "26",
+        "channelcount": 8,
+        "type": "relay",
         "description": "Relay output module (engine room)",
         "channels": [
           {
-            "index": 0,
-            "type": "relay",
+            "index": 1,
             "description": "Hot water loop"
           },
           {
-            "index": 1,
-            "type": "relay",
+            "index": 2,
             "description": "Stern light"
           },
           {
-            "index": 2,
-            "type": "relay",
+            "index": 3,
             "description": "Load sense (low)"
           },
           {
-            "index": 3,
-            "type": "relay",
+            "index": 4,
             "description": "Load sense (high)"
           },
           {
-            "index": 4,
-            "type": "relay",
+            "index": 5,
             "description": "Engine room ventilator (auto)"
           },
           {
-            "index": 5,
-            "type": "relay",
+            "index": 6,
             "description": "Engine room ventilator"
           },
           {
-            "index": 6,
-            "type": "relay",
+            "index": 7,
             "description": "Stern gland lubricator"
           },
           {
-            "index": 7,
-            "type": "relay",
+            "index": 8,
             "description": "Deck wash pump"
           }
         ]
       },
       {
-        "instance": 31,
+        "instance": "31",
+        "channelcount": 8,
+        "type": "relay",
         "description": "Relay output module (master cabin)",
         "channels": [
           {
-            "index": 0,
-            "type": "relay",
+            "index": 1,
             "description": "Forelocker hatch open"
           },
           {
-            "index": 1,
-            "type": "relay",
+            "index": 2,
             "description": "Forelocker hatch close"
           },
           {
-            "index": 2,
-            "type": "relay",
+            "index": 3,
             "description": "Mast up"
           },
           {
-            "index": 3,
-            "type": "relay",
+            "index": 4,
             "description": "Mast down"
           },
           {
-            "index": 4,
-            "type": "relay",
+            "index": 5,
             "description": "Anchor up"
           },
           {
-            "index": 5,
-            "type": "relay",
+            "index": 6,
             "description": "Anchor down"
           },
           {
-            "index": 6,
-            "type": "relay",
+            "index": 7,
             "description": "Bow thrust (starboard)"
           },
           {
-            "index": 7,
-            "type": "relay",
+            "index": 8,
             "description": "Bow thrust (port)"
           }
         ]
-      }
-    ],
-    "rules": [
-      {
-        "description": "1kW IMMERSION HEATER",
-        "input": [ "(0,0)" ],
-        "output": "(10,5)"
-      },
-      {
-        "description": "2kW IMMERSION HEATER",
-        "input": [ "(0,1)" ],
-        "output": "(10,4)"
-      },
-      {
-        "description": "CHILLER",
-        "input": [ "(0,2)" ],
-        "output": "(10,3)"
-      },
-      {
-        "description": "BOILER",
-        "input": [ "(0,3)" ],
-        "output": "(10,2)"
-      },
-      {
-        "description": "THERMAL STORE",
-        "input": [ "(0,4)" ],
-        "output": "(10,1)"
-      },
-      {
-        "description": "HOT-WATER LOOP",
-        "input": [ "(0,5)", "notifications.controller.loop" ],
-        "output": "(26,0)"
-      },
-      {
-        "description": "HYDROPHORE",
-        "input": [ "(0,6)" ],
-        "output": "(10,0)"
-      },
-      {
-        "description": "WORK LIGHTS",
-        "input": [ "(0,7)" ],
-        "output": "(15,3)"
-      },
-      {
-        "description": "ANCHOR LIGHT",
-        "input": [ "(0,8)" ],
-        "output": "(15,2)"
-      },
-      {
-        "description": "STEAMING LIGHT",
-        "input": [ "(0,9)" ],
-        "output": "(15,1)"
-      },
-      {
-        "description": "STERN LIGHT",
-        "input": [ "(0,9)" ],
-        "output": "(26,1)"
-      },
-      {
-        "description": "DISCHARGE PUMP",
-        "input": [ "(0,10) notifications.control.tanks.wasteWater.0.currentLevel", "(0,11)" ],
-        "output": "(15,0)"
-      },
-      {
-        "description": "DECKWASH PUMP",
-        "input": [ "(0,12)" ],
-        "output": "(26,7)"
-      },
-      {
-        "description": "CALL FOR HW",
-        "input": [ "(0,13)" ],
-        "output": "(10,7)"
-      },
-      {
-        "description": "CALL FOR CH",
-        "input": [ "(0,14)", "notifications.controller.heating" ],
-        "output": "(10,6)"
-      },
-      {
-        "description": "PROPANE ISOLATOR",
-        "input": [ "(0,15)" ],
-        "output": "(15,4)"
-      },
-      {
-        "description": "TROLL VALVE FLAG",
-        "input": [ "(16,0)" ],
-        "output": ""
-      },
-      {
-        "description": "ENGINE ROOM VENTILATOR (AUTO)",
-        "input": [ "(16,1)" ],
-        "output": "(26,4)"
-      },
-      {
-        "description": "ENGINE ROOM VENTILATOR",
-        "input": [ "(16,2)" ],
-        "output": "(26,5)"
-      },
-      {
-        "description": "MAIN BILGE VENTILATOR (AUTO)",
-        "input": [ "(16,3)" ],
-        "output": ""
-      },
-      {
-        "description": "MAIN BILGE VENTILATOR",
-        "input": [ "(16,4)" ],
-        "output": ""
-      },
-      {
-        "description": "ANCHOR UP",
-        "input": [ "(16,5)" ],
-        "output": "(31,4)"
-      },
-      {
-        "input": [
-          "(16,6)"
-        ],
-        "output": "(31,5)",
-        "description": "ANCHOR DOWN"
-      },
-      {
-        "input": [
-          "(16,7)"
-        ],
-        "output": "(31,2)",
-        "description": "MAST UP"
-      },
-      {
-        "input": [
-          "(16,8)"
-        ],
-        "output": "(31,3)",
-        "description": "MAST DOWN"
-      },
-      {
-        "input": [
-          "(16,9)",
-          "(16,10)"
-        ],
-        "output": "(26,3)",
-        "description": "LOAD SENSE HIGH"
-      },
-      {
-        "input": [
-          "(16,10)"
-        ],
-        "output": "(31,7)",
-        "description": "BOW THRUST PORT"
-      },
-      {
-        "input": [
-          "(16,9)"
-        ],
-        "output": "(31,6)",
-        "description": "BOW THRUST STARBOARD"
-      },
-      {
-        "input": [
-          "(16,11)"
-        ],
-        "output": "(31,0)",
-        "description": "FORELOCKER HATCH OPEN"
-      },
-      {
-        "input": [
-          "(16,12)"
-        ],
-        "output": "(31,1)",
-        "description": "FORELOCKER HATCH CLOSE"
-      },
-      {
-        "input": [
-          "(16,13)"
-        ],
-        "output": "",
-        "description": ""
-      },
-      {
-        "input": [
-          "(16,14)"
-        ],
-        "output": "",
-        "description": ""
-      },
-      {
-        "input": [
-          "(16,15)"
-        ],
-        "output": "",
-        "description": ""
-      },
-      {
-        "input": [
-          "notifications.control.shaftlube.state"
-        ],
-        "output": "(26,6)",
-        "description": "STERN GLAND LUBRICATION"
       }
     ]
   }

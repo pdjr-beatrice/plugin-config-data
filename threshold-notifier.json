@@ -1,18 +1,21 @@
 {
   "enabled": true,
   "enableLogging": false,
+  "enableDebug": false,
   "configuration": {
     "paths": [
       {
         "path": "tanks.wasteWater.0.currentLevel",
-        "message": "${vessel}: waste water level is ${comp} ${threshold}: ${action} discharge pump",
+        "message": "waste water level is ${comp} ${threshold}: ${action} discharge pump",
         "highthreshold": {
           "value": 0.5,
           "state": "alert",
-          "method": [ "visual" ]
+          "method": [
+            "visual"
+          ]
         },
         "lowthreshold": {
-          "value": 0.01,
+          "value": 0.05,
           "state": "normal",
           "method": []
         },
@@ -27,7 +30,9 @@
         "highthreshold": {
           "value": 0.85,
           "state": "alert",
-          "method": [ "visual" ]
+          "method": [
+            "visual"
+          ]
         },
         "options": [
           "enabled"
