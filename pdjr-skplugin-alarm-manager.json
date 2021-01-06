@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "enableLogging": false,
+  "enableDebug": false,
+  "configuration": {
+    "ignorepaths": [
+      "design.",
+      "electrical.",
+      "environment.",
+      "network.",
+      "notifications.",
+      "sensors."
+    ],
+    "starton": "notifications.plugins.meta.status",
+    "outputs": [
+      {
+        "switchpath": "electrical.switches.bank.usb0.1",
+        "triggerstates": [
+          "warn",
+          "alert"
+        ]
+      },
+      {
+        "switchpath": "electrical.switches.bank.usb0.2",
+        "triggerstates": [
+          "alarm",
+          "emergency"
+        ]
+      }
+    ]
+  }
+}
