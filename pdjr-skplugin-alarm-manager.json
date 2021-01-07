@@ -1,7 +1,4 @@
 {
-  "enabled": true,
-  "enableLogging": false,
-  "enableDebug": false,
   "configuration": {
     "ignorepaths": [
       "design.",
@@ -11,7 +8,6 @@
       "notifications.",
       "sensors."
     ],
-    "starton": "notifications.plugins.meta.status",
     "outputs": [
       {
         "switchpath": "electrical.switches.bank.usb0.1",
@@ -27,6 +23,10 @@
           "emergency"
         ]
       }
-    ]
-  }
+    ],
+    "starton": "notifications.plugins.pdjr-skplugin-meta-injector.notification"
+  },
+  "enabled": true,
+  "enableLogging": false,
+  "enableDebug": false
 }
