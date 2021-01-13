@@ -35,7 +35,7 @@
         "shortName": "Tank 0",
         "zones": [
           {
-            "lower": 0.15,
+            "lower": 0.33,
             "state": "warn",
             "message": "Tank 0 (Waste) level approaching auto pump-out threshold"
           },

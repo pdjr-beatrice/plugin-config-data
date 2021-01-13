@@ -60,7 +60,7 @@
       },
       {
         "description": "DISCHARGE PUMP",
-        "input": "(notifications.control.tanks.wasteWater.0.currentLevel:alert and [0,11]) or ([0,11] and [0,12])",
+        "input": "(notifications.tanks.wasteWater.0.currentLevel.override:alert and [0,11]) or ([0,11] and [0,12])",
         "output": "[15,1]"
       },
       {

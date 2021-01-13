@@ -1,3 +1,36 @@
 {
-  "enabled": false
+  "configuration": {
+    "triggers": [
+      {
+        "path": "notifications.plugins.pdjr-skplugin-alarm-manager.notification",
+        "conditions": [
+          "alert"
+        ],
+        "notifiers": [
+          "email"
+        ]
+      }
+    ],
+    "notifiers": [
+      {
+        "name": "email",
+        "description": "Send Signal K notifications by email (arguments must be email addresses)",
+        "arguments": "paulanddiane@pdjr.eu",
+        "options": []
+      },
+      {
+        "name": "null",
+        "description": "Send Signal K notifications to a black hole",
+        "arguments": "",
+        "options": []
+      },
+      {
+        "name": "sms",
+        "description": "Send Signal K notifications by SMS (arguments must be phone numbers)",
+        "arguments": "",
+        "options": []
+      }
+    ]
+  },
+  "enabled": true
 }
