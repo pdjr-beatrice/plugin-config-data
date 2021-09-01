@@ -1,21 +1,11 @@
 {
   "configuration": {
-    "triggers": [
-      {
-        "path": "notifications.plugins.pdjr-skplugin-alarm-manager.notification",
-        "conditions": [
-          "alert"
-        ],
-        "notifiers": [
-          "email"
-        ]
-      }
-    ],
+    "triggers": [],
     "notifiers": [
       {
         "name": "email",
         "description": "Send Signal K notifications by email (arguments must be email addresses)",
-        "arguments": "paulanddiane@pdjr.eu",
+        "arguments": "",
         "options": []
       },
       {

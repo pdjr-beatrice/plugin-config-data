@@ -1,0 +1,77 @@
+{
+  "configuration": {
+    "remoteHost": "mqtt://192.168.1.99",
+    "username": "preeve",
+    "password": "samsam",
+    "rejectUnauthorized": false,
+    "paths": [
+      {
+        "path": "navigation.position",
+        "topic": "navigation/position",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "electrical.switches.bank.16.16.state",
+        "topic": "homeassistant/binary_sensor/engine_state",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "electrical.switches.bank.15.5.state",
+        "topic": "homeassistant/binary_sensor/propane_isolator_state",
+        "retain": false,
+        "interval": 60
+      },
+      {
+        "path": "tanks.wasteWater.0.currentLevel",
+        "topic": "sensor/wastewater_level",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "tanks.fuel.3.currentLevel",
+        "topic": "sensor/fuelps_level",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "tanks.fuel.4.currentLevel",
+        "topic": "sensor/fuelsb_level",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "tanks.freshWater.1.currentLevel",
+        "topic": "sensor/waterps_level",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "tanks.freshWater.2.currentLevel",
+        "topic": "sensor/watersb_level",
+        "retain": true,
+        "interval": 60
+      },
+      {
+        "path": "electrical.switches.bank.16.15.state",
+        "topic": "wheelhouse/lights/control",
+        "retain": true,
+        "interval": 0
+      },
+      {
+        "path": "electrical.switches.bank.15.1.state",
+        "topic": "binary_sensor/discharge_pump",
+        "retain": true,
+        "interval": 0
+      },
+      {
+        "path": "electrical.switches.bank.0.11.state",
+        "topic": "binary_sensor/discharge_pump_mode_auto",
+        "retain": true,
+        "interval": 0
+      }
+    ]
+  },
+  "enabled": true
+}

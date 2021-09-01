@@ -3,7 +3,7 @@
   "enableLogging": false,
   "enableDebug": false,
   "configuration": {
-    "startdelay": 10000,
+    "fifo": "/tmp/meta-injector",
     "metadata": [
       {
         "key": "tanks.",
@@ -35,7 +35,7 @@
         "shortName": "Tank 0",
         "zones": [
           {
-            "lower": 0.33,
+            "lower": 0.45,
             "state": "warn",
             "message": "Tank 0 (Waste) level approaching auto pump-out threshold"
           },
@@ -128,10 +128,6 @@
           }
         ]
       }
-    ],
-    "includepaths": [
-      "notifications.plugins.switchbank.metadata",
-      "notifications.plugins.devantech.metadata"
     ]
   }
 }

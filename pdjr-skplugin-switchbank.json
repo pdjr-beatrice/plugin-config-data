@@ -2,6 +2,7 @@
   "enabled": true,
   "enableLogging": false,
   "configuration": {
+    "metainjectorfifo": "/tmp/meta-injector",
     "switchbanks": [
       {
         "instance": "0",
@@ -215,7 +216,7 @@
           },
           {
             "index": 14,
-            "description": ""
+            "description": "Generator"
           },
           {
             "index": 15,

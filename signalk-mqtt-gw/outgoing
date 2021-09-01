@@ -1,0 +1,16 @@
+{"_id":14840,"packet":{"cmd":"publish","topic":"homeassistant/binary_sensor/engine-state","payload":{"description":"Binary switch state (0 = OFF, 1 = ON)","type":"switch","shortName":"[16,16]","displayName":"Main engine","longName":"Main engine [16,16]","timeout":10000},"qos":1,"messageId":14840}}
+{"_id":14841,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309533,"latitude":52.9360366},"qos":1,"messageId":14841}}
+{"_id":14843,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309499,"latitude":52.936045},"qos":1,"messageId":14843}}
+{"_id":14844,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309449,"latitude":52.9360483},"qos":1,"messageId":14844}}
+{"_id":14846,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309417,"latitude":52.93604},"qos":1,"messageId":14846}}
+{"_id":14848,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309383,"latitude":52.9360333},"qos":1,"messageId":14848}}
+{"_id":15074,"packet":{"cmd":"publish","topic":"homeassistant/binary_sensor/engine-state","payload":{"description":"Binary switch state (0 = OFF, 1 = ON)","type":"switch","shortName":"[16,16]","displayName":"Main engine","longName":"Main engine [16,16]","timeout":10000},"qos":1,"messageId":15074}}
+{"_id":15075,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309333,"latitude":52.9360333},"qos":1,"messageId":15075}}
+{"_id":15076,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309417,"latitude":52.936035},"qos":1,"messageId":15076}}
+{"_id":15078,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":{"longitude":6.4309549,"latitude":52.9360283},"qos":1,"messageId":15078}}
+{"_id":42734,"packet":{"cmd":"publish","topic":"navigation/position","payload":"{\"longitude\":6.0275516,\"latitude\":52.7099833}","qos":1,"retain":true,"messageId":42734}}
+{"_id":56804,"packet":{"cmd":"publish","topic":"homeassistant/binary_sensor/engine_state","payload":"1","qos":1,"retain":true,"messageId":56804}}
+{"_id":60079,"packet":{"cmd":"publish","topic":"homeassistant/navigation/position","payload":"{\"longitude\":6.4309549,\"latitude\":52.9360383}","qos":1,"retain":false,"messageId":60079}}
+{"_id":64550,"packet":{"cmd":"publish","topic":"homeassistant/binary_sensor/engine_state","payload":"0","qos":1,"retain":true,"messageId":64550}}
+{"_id":64551,"packet":{"cmd":"publish","topic":"navigation/position","payload":"{\"longitude\":6.34383,\"latitude\":52.84952}","qos":1,"retain":true,"messageId":64551}}
+{"_id":14840,"packet":{"cmd":"publish","topic":"homeassistant/binary_sensor/engine-state","payload":{"description":"Binary switch state (0 = OFF, 1 = ON)","type":"switch","shortName":"[16,16]","displayName":"Main engine","longName":"Main engine [16,16]","timeout":10000},"qos":1,"messageId":14840}}

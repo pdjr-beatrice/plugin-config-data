@@ -26,7 +26,7 @@
     ],
     "starton": "notifications.plugins.pdjr-skplugin-meta-injector.notification"
   },
-  "enabled": true,
+  "enabled": false,
   "enableLogging": false,
   "enableDebug": false
 }

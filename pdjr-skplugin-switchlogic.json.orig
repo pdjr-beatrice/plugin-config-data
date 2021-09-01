@@ -144,6 +144,16 @@
         "description": "SHAFT LUBRICATION"
       },
       {
+        "input": "[16,11]",
+        "output": "[31,8]",
+        "description": "BOW THRUST PORT"
+      },
+      {
+        "input": "[16,10]",
+        "output": "[31,7]",
+        "description": "BOW THRUST STARBOARD"
+      },
+      {
         "input": "[16,12]",
         "output": "[31,1]",
         "description": "FORELOCKER HATCH OPEN"

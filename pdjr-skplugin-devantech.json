@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "enableLogging": false,
   "configuration": {
     "switchpath": "electrical.switches.bank.{m}.{c}",
